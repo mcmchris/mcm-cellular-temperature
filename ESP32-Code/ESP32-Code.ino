@@ -52,7 +52,6 @@ void setup(void) {
  
   pinMode(LED, OUTPUT);
   pinMode(RELAY, OUTPUT);
-  pinMode(D6, INPUT);
   // Start up the library
   sensors.begin();
   notecard.setDebugOutputStream(Serial);
